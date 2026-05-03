@@ -1,0 +1,15 @@
+Implementation Plan for Claude
+
+(The following directive specifies the rapid deployment protocol requested to instantiate the architectural framework described above).
+
+Goal: Establish an autonomous AI Second Brain utilizing Obsidian and Claude for knowledge association, CRM, and task automation.
+
+Implementation Directive:
+
+    Initialize Vault: Install Obsidian locally. Establish strict directory taxonomy: /00_Inbox (raw capture), /01_Daily (time-series logs), /02_Projects, /04_People (CRM), and /AI/Sessions.
+
+    Deploy Agentic Layer: Install Claude Code CLI and configure Model Context Protocol (MCP) plugins to grant secure, file-system read/write permissions.
+
+    Configure Cognitive Core: Create CLAUDE.md to define identity, formatting rules (e.g., #tags, [[wikilinks]]), and session startup/shutdown protocols.
+
+    Automate Workflows: Implement proactive cron-job "heartbeats" for daily reflection. Program the AI to parse the inbox, map entities to CRM notes, extract project tasks, and iteratively append insights to a persistent memory.md file, visualizing the compounding intelligence via Obsidian's Graph View.
